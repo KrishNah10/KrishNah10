@@ -1,41 +1,41 @@
 <div align="center">
 
-  <!-- Custom Hero Banner -->
+  <!-- Custom Cyberpunk Neon Hero Banner -->
   <a href="https://github.com/KrishNah10">
-    <img src="assets/banner.svg" alt="Krishna Priya — AI/ML, Quantum & Full-Stack Developer Banner" width="100%" />
+    <img src="assets/banner.svg" alt="Krishna Priya — AI/ML & Quantum Banner" width="100%" />
   </a>
 
   <br/><br/>
 
-  <!-- Dynamic Typing SVG -->
+  <!-- Dynamic Typing SVG in Cyber Cyan -->
   <a href="https://github.com/KrishNah10">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=780&lines=AI+%26+Machine+Learning+Developer;CSE+Student+%7C+Quantum+Technology+Minor;Full-Stack+Architect+(Next.js+%E2%80%A2+FastAPI+%E2%80%A2+Cloud);Building+Intelligent+Solutions+%F0%9F%9A%80" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=700&size=22&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&width=820&lines=AI+%26+Machine+Learning+Developer;CSE+Student+%7C+Quantum+Technology+Minor;Full-Stack+Architect+(Next.js+%E2%80%A2+FastAPI+%E2%80%A2+Cloud);Building+Intelligent+Solutions+%F0%9F%9A%80" alt="Typing SVG" />
   </a>
 
   <p align="center">
     <strong>AI/ML &amp; Full-Stack Developer | CSE Student | Quantum Technology Minor | Building Intelligent Solutions 🚀</strong>
   </p>
 
-  <!-- Status Badges -->
+  <!-- Status Badges in Cyan & Pink Accents -->
   <p align="center">
-    <img src="https://img.shields.io/badge/Focus-AI%2FML%20%7C%20Quantum%20%7C%20Full--Stack-0B0F19?style=for-the-badge&logo=probot&logoColor=38BDF8&labelColor=0B0F19" alt="Focus" />
-    <img src="https://img.shields.io/badge/Status-Building%20%26%20Researching-0B0F19?style=for-the-badge&logo=rocket&logoColor=34D399&labelColor=0B0F19" alt="Status" />
-    <img src="https://komarev.com/ghpvc/?username=KrishNah10&color=38bdf8&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
+    <img src="https://img.shields.io/badge/Focus-AI%2FML%20%7C%20Quantum%20%7C%20Full--Stack-040208?style=for-the-badge&logo=probot&logoColor=00F0FF&labelColor=040208" alt="Focus" />
+    <img src="https://img.shields.io/badge/Status-Building%20%26%20Researching-040208?style=for-the-badge&logo=rocket&logoColor=FF007A&labelColor=040208" alt="Status" />
+    <img src="https://komarev.com/ghpvc/?username=KrishNah10&color=00f0ff&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
   </p>
 
   <!-- Social Links Bar -->
   <p align="center">
     <a href="mailto:krishna10priya0506@gmail.com">
-      <img src="https://img.shields.io/badge/Email-krishna10priya0506%40gmail.com-0F172A?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" />
+      <img src="https://img.shields.io/badge/Email-krishna10priya0506%40gmail.com-040208?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" />
     </a>
     <a href="https://github.com/KrishNah10">
-      <img src="https://img.shields.io/badge/GitHub-KrishNah10-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+      <img src="https://img.shields.io/badge/GitHub-KrishNah10-040208?style=for-the-badge&logo=github&logoColor=00F0FF" alt="GitHub" />
     </a>
     <a href="https://x.com/krishx10">
-      <img src="https://img.shields.io/badge/X-@krishx10-0F172A?style=for-the-badge&logo=x&logoColor=white" alt="Twitter / X" />
+      <img src="https://img.shields.io/badge/X-@krishx10-040208?style=for-the-badge&logo=x&logoColor=white" alt="X Profile" />
     </a>
     <a href="https://www.linkedin.com/in/krishna-priya">
-      <img src="https://img.shields.io/badge/LinkedIn-Krishna%20Priya-0F172A?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" />
+      <img src="https://img.shields.io/badge/LinkedIn-Krishna%20Priya-040208?style=for-the-badge&logo=linkedin&logoColor=FF007A" alt="LinkedIn" />
     </a>
   </p>
 
@@ -45,7 +45,7 @@
 
 ## ⚡ About Me
 
-I am a computer science student specializing in **Artificial Intelligence & Machine Learning**, with a minor in **Quantum Technology**. I am driven by solving mathematically challenging problems and turning complex algorithms into production-ready software architectures.
+I am a computer science student specializing in **Artificial Intelligence & Machine Learning**, with a minor in **Quantum Technology**. Driven by solving mathematically challenging problems, I build intelligent systems that bridge theory with high-performance software.
 
 - 🧠 **Artificial Intelligence & Machine Learning:** Designing predictive pipelines, deep neural architectures, anomaly and fraud detection models, and multi-modal generative AI integrations using modern LLM APIs.
 - ⚛️ **Quantum Computing & Optimization:** Exploring quantum algorithms (QAOA, VQE, QUBO problem modeling) and quantum-inspired metaheuristics (simulated annealing, graph optimization) to solve high-dimensional combinatorial problems.
@@ -89,8 +89,8 @@ I am a computer science student specializing in **Artificial Intelligence & Mach
 <p>
   <img src="https://img.shields.io/badge/Qiskit-6929C4?style=for-the-badge&logo=qiskit&logoColor=white" alt="Qiskit" />
   <img src="https://img.shields.io/badge/Cirq-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Cirq" />
-  <img src="https://img.shields.io/badge/Quantum_Annealing-008080?style=for-the-badge&logo=atom&logoColor=white" alt="Quantum Annealing" />
-  <img src="https://img.shields.io/badge/QUBO_Optimization-38BDF8?style=for-the-badge&logo=target&logoColor=black" alt="QUBO Optimization" />
+  <img src="https://img.shields.io/badge/Quantum_Annealing-00F0FF?style=for-the-badge&logo=atom&logoColor=black" alt="Quantum Annealing" />
+  <img src="https://img.shields.io/badge/QUBO_Optimization-FF007A?style=for-the-badge&logo=target&logoColor=white" alt="QUBO Optimization" />
   <img src="https://img.shields.io/badge/NetworkX-00599C?style=for-the-badge&logo=graph&logoColor=white" alt="NetworkX" />
 </p>
 
@@ -128,10 +128,10 @@ I am a computer science student specializing in **Artificial Intelligence & Mach
 
 | Project | Tech Stack | Highlights | Links |
 | :--- | :--- | :--- | :---: |
-| 🏥 **BedCare Connect — Healthcare Ecosystem** | `Next.js 15` `TypeScript` `Supabase` `Gemini AI` `Capacitor` | • Multi-tenant role system: Caretaker, Patient, Family, Org-Admin<br/>• Google Gemini API integration for automated clinical notes & daily patient summaries<br/>• Deployed on Vercel with hybrid PWA and native Android/iOS mobile build support | [![Live Demo](https://img.shields.io/badge/Live_Demo-00C7B7?style=flat-square&logo=vercel&logoColor=white)](https://bed-care-connect.vercel.app)<br/>[![View Repo](https://img.shields.io/badge/Repo-0F172A?style=flat-square&logo=github&logoColor=34D399)](https://github.com/KrishNah10/BedCare-Connect) |
-| 🛡️ **Intelligent Payment Security & Fraud Detection Platform** | `Python` `FastAPI` `Scikit-Learn` `Streamlit` `Docker` | • Multi-tier machine learning fraud detection engine & real-time risk scoring<br/>• Quantum-inspired graph optimization routing for high-volume transactions<br/>• Integrated NLP payment support assistant & interactive analytics dashboard | [![View Repo](https://img.shields.io/badge/Repo-0F172A?style=flat-square&logo=github&logoColor=38BDF8)](https://github.com/KrishNah10/Fraud_Detection_Project) |
-| ⚛️ **Quantum-Inspired Optimization & QUBO Suite** | `Python` `Qiskit` `NumPy` `NetworkX` `Matplotlib` | • Quadratic Unconstrained Binary Optimization (QUBO) mathematical modeling<br/>• Benchmark of simulated quantum annealing vs classical heuristics on NP-hard problems<br/>• High-dimensional combinatorial graph partitioning & TSP solvers | [![View Repo](https://img.shields.io/badge/Repo-0F172A?style=flat-square&logo=github&logoColor=818CF8)](https://github.com/KrishNah10/Quantum-Optimization-Suite) |
-| 🧠 **AI Knowledge Graph & Adaptive Learning Engine** | `Next.js` `TypeScript` `Google Gemini` `Supabase` `Tailwind` | • Dynamic knowledge graph decomposition from unstructured topics using Gemini<br/>• Real-time interactive node visualization powered by React Flow & Recharts<br/>• Automated contextual quiz generation, performance telemetry, and streak tracking | [![View Repo](https://img.shields.io/badge/Repo-0F172A?style=flat-square&logo=github&logoColor=38BDF8)](https://github.com/KrishNah10/AI-Knowledge-Engine) |
+| 🏥 **BedCare Connect — Healthcare Ecosystem** | `Next.js 15` `TypeScript` `Supabase` `Gemini AI` `Capacitor` | • Multi-tenant role system: Caretaker, Patient, Family, Org-Admin<br/>• Google Gemini API integration for automated clinical notes & daily patient summaries<br/>• Deployed on Vercel with hybrid PWA and native Android/iOS mobile build support | [![Live Demo](https://img.shields.io/badge/Live_Demo-00F0FF?style=flat-square&logo=vercel&logoColor=black)](https://bed-care-connect.vercel.app)<br/>[![View Repo](https://img.shields.io/badge/Repo-040208?style=flat-square&logo=github&logoColor=00F0FF)](https://github.com/KrishNah10/BedCare-Connect) |
+| 🛡️ **Intelligent Payment Security & Fraud Detection Platform** | `Python` `FastAPI` `Scikit-Learn` `Streamlit` `Docker` | • Multi-tier machine learning fraud detection engine & real-time risk scoring<br/>• Quantum-inspired graph optimization routing for high-volume transactions<br/>• Integrated NLP payment support assistant & interactive analytics dashboard | [![View Repo](https://img.shields.io/badge/Repo-040208?style=flat-square&logo=github&logoColor=FF007A)](https://github.com/KrishNah10/Fraud_Detection_Project) |
+| ⚛️ **Quantum-Inspired Optimization & QUBO Suite** | `Python` `Qiskit` `NumPy` `NetworkX` `Matplotlib` | • Quadratic Unconstrained Binary Optimization (QUBO) mathematical modeling<br/>• Benchmark of simulated quantum annealing vs classical heuristics on NP-hard problems<br/>• High-dimensional combinatorial graph partitioning & TSP solvers | [![View Repo](https://img.shields.io/badge/Repo-040208?style=flat-square&logo=github&logoColor=00F0FF)](https://github.com/KrishNah10/Quantum-Optimization-Suite) |
+| 🧠 **AI Knowledge Graph & Adaptive Learning Engine** | `Next.js` `TypeScript` `Google Gemini` `Supabase` `Tailwind` | • Dynamic knowledge graph decomposition from unstructured topics using Gemini<br/>• Real-time interactive node visualization powered by React Flow & Recharts<br/>• Automated contextual quiz generation, performance telemetry, and streak tracking | [![View Repo](https://img.shields.io/badge/Repo-040208?style=flat-square&logo=github&logoColor=FF007A)](https://github.com/KrishNah10/AI-Knowledge-Engine) |
 
 </div>
 
@@ -143,26 +143,26 @@ I am a computer science student specializing in **Artificial Intelligence & Mach
 
 <div align="center">
 
-  <!-- Stats & Languages Cards -->
+  <!-- Stats & Languages Cards in Cyber Neon Palette -->
   <table border="0">
     <tr>
       <td width="50%" align="center">
         <a href="https://github.com/KrishNah10">
-          <img src="https://github-readme-stats.vercel.app/api?username=KrishNah10&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=34D399&text_color=94A3B8&cache_seconds=1800" alt="GitHub Profile Stats" width="100%" />
+          <img src="https://github-readme-stats.vercel.app/api?username=KrishNah10&show_icons=true&hide_border=true&bg_color=040208&title_color=00F0FF&icon_color=FF007A&text_color=E2E8F0&cache_seconds=1800" alt="GitHub Profile Stats" width="100%" />
         </a>
       </td>
       <td width="50%" align="center">
         <a href="https://github.com/KrishNah10">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KrishNah10&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=94A3B8&cache_seconds=1800" alt="Top Languages" width="100%" />
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KrishNah10&layout=compact&hide_border=true&bg_color=040208&title_color=00F0FF&text_color=E2E8F0&cache_seconds=1800" alt="Top Languages" width="100%" />
         </a>
       </td>
     </tr>
   </table>
 
-  <!-- Streak Stats Card -->
+  <!-- Streak Stats Card in Cyber Neon Palette -->
   <p align="center">
     <a href="https://github.com/KrishNah10">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=KrishNah10&theme=tokyonight&hide_border=true&background=0D1117&stroke=38BDF8&ring=818CF8&fire=34D399&currStreakLabel=38BDF8" alt="GitHub Streak Stats" width="85%" />
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=KrishNah10&hide_border=true&background=040208&stroke=00F0FF&ring=FF007A&fire=FF007A&currStreakLabel=00F0FF" alt="GitHub Streak Stats" width="85%" />
     </a>
   </p>
 
@@ -226,19 +226,19 @@ Whether you are interested in collaborating on an **AI/ML project**, discussing 
 <div align="center">
 
   <a href="mailto:krishna10priya0506@gmail.com">
-    <img src="https://img.shields.io/badge/Direct_Email-krishna10priya0506%40gmail.com-0F172A?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Direct Email" />
+    <img src="https://img.shields.io/badge/Direct_Email-krishna10priya0506%40gmail.com-040208?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Direct Email" />
   </a>
   &nbsp;
   <a href="https://github.com/KrishNah10">
-    <img src="https://img.shields.io/badge/GitHub_Profile-KrishNah10-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" />
+    <img src="https://img.shields.io/badge/GitHub_Profile-KrishNah10-040208?style=for-the-badge&logo=github&logoColor=00F0FF" alt="GitHub Profile" />
   </a>
   &nbsp;
   <a href="https://x.com/krishx10">
-    <img src="https://img.shields.io/badge/X-@krishx10-0F172A?style=for-the-badge&logo=x&logoColor=white" alt="X Profile" />
+    <img src="https://img.shields.io/badge/X-@krishx10-040208?style=for-the-badge&logo=x&logoColor=white" alt="X Profile" />
   </a>
   &nbsp;
   <a href="https://www.linkedin.com/in/krishna-priya">
-    <img src="https://img.shields.io/badge/LinkedIn_Network-Connect-0F172A?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn_Network-Connect-040208?style=for-the-badge&logo=linkedin&logoColor=FF007A" alt="LinkedIn" />
   </a>
 
   <br/><br/>
