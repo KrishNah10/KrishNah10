@@ -2,7 +2,7 @@
 
   <!-- Custom Cyberpunk Neon Hero Banner -->
   <a href="https://github.com/KrishNah10">
-    <img src="assets/banner.svg" alt="Krishna Priya — AI/ML & Quantum Banner" width="100%" />
+    <img src="assets/banner.svg?v=3" alt="Krishna Priya — AI/ML &amp; Quantum Banner" width="100%" />
   </a>
 
   <br/><br/>
@@ -41,7 +41,7 @@
 
 </div>
 
-<img src="assets/divider.svg" width="100%" alt="Divider" />
+<img src="assets/divider.svg?v=3" width="100%" alt="Divider" />
 
 ## ⚡ About Me
 
@@ -55,7 +55,7 @@ I am a computer science student specializing in **Artificial Intelligence & Mach
 
 <br/>
 
-<img src="assets/divider.svg" width="100%" alt="Divider" />
+<img src="assets/divider.svg?v=3" width="100%" alt="Divider" />
 
 ## 🛠️ Technical Arsenal
 
@@ -120,7 +120,7 @@ I am a computer science student specializing in **Artificial Intelligence & Mach
 
 <br/>
 
-<img src="assets/divider.svg" width="100%" alt="Divider" />
+<img src="assets/divider.svg?v=3" width="100%" alt="Divider" />
 
 ## 🌟 Featured Engineering Projects
 
@@ -137,7 +137,7 @@ I am a computer science student specializing in **Artificial Intelligence & Mach
 
 <br/>
 
-<img src="assets/divider.svg" width="100%" alt="Divider" />
+<img src="assets/divider.svg?v=3" width="100%" alt="Divider" />
 
 ## 📊 GitHub Analytics Dashboard
 
@@ -170,7 +170,7 @@ I am a computer science student specializing in **Artificial Intelligence & Mach
 
 <br/>
 
-<img src="assets/divider.svg" width="100%" alt="Divider" />
+<img src="assets/divider.svg?v=3" width="100%" alt="Divider" />
 
 ## 🐍 Contribution Journey & Activity Snake
 
@@ -191,7 +191,7 @@ I am a computer science student specializing in **Artificial Intelligence & Mach
 
 <br/>
 
-<img src="assets/divider.svg" width="100%" alt="Divider" />
+<img src="assets/divider.svg?v=3" width="100%" alt="Divider" />
 
 ## 🔬 Research & Exploration Horizons
 
@@ -217,7 +217,7 @@ mindmap
 
 <br/>
 
-<img src="assets/divider.svg" width="100%" alt="Divider" />
+<img src="assets/divider.svg?v=3" width="100%" alt="Divider" />
 
 ## 🤝 Let's Connect & Collaborate
 

@@ -230,7 +230,7 @@
     <!-- Bottom Secondary Spaced Kicker -->
     <g transform="translate(2, 342)">
       <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#64748B" letter-spacing="3.5">
-        EXPLORE THE FUTURE &bull; OPEN TO INNOVATION
+        EXPLORE THE FUTURE &#8226; OPEN TO INNOVATION
       </text>
     </g>
 
