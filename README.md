@@ -2,7 +2,7 @@
 
   <!-- Custom Cyberpunk Neon Hero Banner -->
   <a href="https://github.com/KrishNah10">
-    <img src="assets/banner.svg?v=3" alt="Krishna Priya — AI/ML &amp; Quantum Banner" width="100%" />
+    <img src="assets/banner.svg?v=4" alt="Krishna Priya — AI/ML &amp; Quantum Banner" width="100%" />
   </a>
 
   <br/><br/>
@@ -20,7 +20,6 @@
   <p align="center">
     <img src="https://img.shields.io/badge/Focus-AI%2FML%20%7C%20Quantum%20%7C%20Full--Stack-040208?style=for-the-badge&logo=probot&logoColor=00F0FF&labelColor=040208" alt="Focus" />
     <img src="https://img.shields.io/badge/Status-Building%20%26%20Researching-040208?style=for-the-badge&logo=rocket&logoColor=FF007A&labelColor=040208" alt="Status" />
-    <img src="https://komarev.com/ghpvc/?username=KrishNah10&color=00f0ff&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
   </p>
 
   <!-- Social Links Bar -->
@@ -124,70 +123,12 @@ I am a computer science student specializing in **Artificial Intelligence & Mach
 
 ## 🌟 Featured Engineering Projects
 
-<div align="center">
-
 | Project | Tech Stack | Highlights | Links |
 | :--- | :--- | :--- | :---: |
-| 🏥 **BedCare Connect — Healthcare Ecosystem** | `Next.js 15` `TypeScript` `Supabase` `Gemini AI` `Capacitor` | • Multi-tenant role system: Caretaker, Patient, Family, Org-Admin<br/>• Google Gemini API integration for automated clinical notes & daily patient summaries<br/>• Deployed on Vercel with hybrid PWA and native Android/iOS mobile build support | [![Live Demo](https://img.shields.io/badge/Live_Demo-00F0FF?style=flat-square&logo=vercel&logoColor=black)](https://bed-care-connect.vercel.app)<br/>[![View Repo](https://img.shields.io/badge/Repo-040208?style=flat-square&logo=github&logoColor=00F0FF)](https://github.com/KrishNah10/BedCare-Connect) |
-| 🛡️ **Intelligent Payment Security & Fraud Detection Platform** | `Python` `FastAPI` `Scikit-Learn` `Streamlit` `Docker` | • Multi-tier machine learning fraud detection engine & real-time risk scoring<br/>• Quantum-inspired graph optimization routing for high-volume transactions<br/>• Integrated NLP payment support assistant & interactive analytics dashboard | [![View Repo](https://img.shields.io/badge/Repo-040208?style=flat-square&logo=github&logoColor=FF007A)](https://github.com/KrishNah10/Fraud_Detection_Project) |
-| ⚛️ **Quantum-Inspired Optimization & QUBO Suite** | `Python` `Qiskit` `NumPy` `NetworkX` `Matplotlib` | • Quadratic Unconstrained Binary Optimization (QUBO) mathematical modeling<br/>• Benchmark of simulated quantum annealing vs classical heuristics on NP-hard problems<br/>• High-dimensional combinatorial graph partitioning & TSP solvers | [![View Repo](https://img.shields.io/badge/Repo-040208?style=flat-square&logo=github&logoColor=00F0FF)](https://github.com/KrishNah10/Quantum-Optimization-Suite) |
-| 🧠 **AI Knowledge Graph & Adaptive Learning Engine** | `Next.js` `TypeScript` `Google Gemini` `Supabase` `Tailwind` | • Dynamic knowledge graph decomposition from unstructured topics using Gemini<br/>• Real-time interactive node visualization powered by React Flow & Recharts<br/>• Automated contextual quiz generation, performance telemetry, and streak tracking | [![View Repo](https://img.shields.io/badge/Repo-040208?style=flat-square&logo=github&logoColor=FF007A)](https://github.com/KrishNah10/AI-Knowledge-Engine) |
-
-</div>
-
-<br/>
-
-<img src="assets/divider.svg?v=3" width="100%" alt="Divider" />
-
-## 📊 GitHub Analytics Dashboard
-
-<div align="center">
-
-  <!-- Stats & Languages Cards in Cyber Neon Palette -->
-  <table border="0">
-    <tr>
-      <td width="50%" align="center">
-        <a href="https://github.com/KrishNah10">
-          <img src="https://github-readme-stats.vercel.app/api?username=KrishNah10&show_icons=true&hide_border=true&bg_color=040208&title_color=00F0FF&icon_color=FF007A&text_color=E2E8F0&cache_seconds=1800" alt="GitHub Profile Stats" width="100%" />
-        </a>
-      </td>
-      <td width="50%" align="center">
-        <a href="https://github.com/KrishNah10">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KrishNah10&layout=compact&hide_border=true&bg_color=040208&title_color=00F0FF&text_color=E2E8F0&cache_seconds=1800" alt="Top Languages" width="100%" />
-        </a>
-      </td>
-    </tr>
-  </table>
-
-  <!-- Streak Stats Card in Cyber Neon Palette -->
-  <p align="center">
-    <a href="https://github.com/KrishNah10">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=KrishNah10&hide_border=true&background=040208&stroke=00F0FF&ring=FF007A&fire=FF007A&currStreakLabel=00F0FF" alt="GitHub Streak Stats" width="85%" />
-    </a>
-  </p>
-
-</div>
-
-<br/>
-
-<img src="assets/divider.svg?v=3" width="100%" alt="Divider" />
-
-## 🐍 Contribution Journey & Activity Snake
-
-<div align="center">
-
-  <!-- Animated Contribution Grid Snake (Generated via .github/workflows/snake.yml) -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KrishNah10/KrishNah10/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KrishNah10/KrishNah10/output/github-contribution-grid-snake.svg" />
-    <img alt="GitHub Contribution Grid Snake" src="https://raw.githubusercontent.com/KrishNah10/KrishNah10/output/github-contribution-grid-snake.svg" width="100%" />
-  </picture>
-
-  <p align="center">
-    <sub>⚡ <em>Animated snake dynamically rendered from my commit graph via GitHub Actions.</em></sub>
-  </p>
-
-</div>
+| 🔬 **ScanoraAI** | `PyTorch` `Computer Vision` `Medical Imaging` `Explainable AI` `Python` | • Deep-learning-based knee MRI abnormality and tear detection<br/>• Medical image analysis focusing on diagnostic feature extraction<br/>• Explainability maps designed to highlight clinical regions of interest | `[Repo Pending]` |
+| 🚦 **Q-TrafficX** | `Python` `Quantum-Inspired Optimization` `QUBO` `Simulation` `Algorithms` | • Quantum-inspired simulation for urban congestion and priority vehicle routing<br/>• Combinatorial optimization modeling for adaptive traffic signal flow<br/>• **Recognized at the Quantexa Hackathon** for innovative algorithmic design | `[Repo Pending]` |
+| 🧠 **LearnX** | `Next.js` `TypeScript` `Google Gemini` `Supabase` `Tailwind CSS` | • AI-powered personalized platform supporting adaptive learning paths<br/>• Dynamic topic decomposition into structured knowledge visualizations<br/>• Automated contextual quiz generation and performance retention tracking | `[Repo Pending]` |
+| 🏥 **BedCare Connect** | `Next.js 15` `TypeScript` `Supabase` `Google Gemini` `Capacitor` | • Multi-tenant healthcare management: Caretakers, Patients, Families, Admins<br/>• Gemini AI clinical note summarization and care coordination workflows<br/>• Offline-first accessibility with progressive caching and mobile readiness | [![Live Demo](https://img.shields.io/badge/Live_Demo-00F0FF?style=flat-square&logo=vercel&logoColor=black)](https://bed-care-connect.vercel.app)<br/>[![View Repo](https://img.shields.io/badge/Repo-040208?style=flat-square&logo=github&logoColor=34D399)](https://github.com/KrishNah10/BedCare-Connect) |
 
 <br/>
 
@@ -200,16 +141,16 @@ mindmap
   root((Krishna's Technical Core))
     Artificial Intelligence
       Deep Learning & Computer Vision
-      NLP & Generative AI Agents
-      Real-Time Fraud & Anomaly Detection
-    Quantum Computing
-      QUBO Problem Formulation
-      Quantum-Inspired Simulated Annealing
-      Qiskit Circuit Simulation & QAOA
+      Medical Imaging & Explainability (ScanoraAI)
+      Generative AI & Adaptive Learning (LearnX)
+    Quantum Technology
+      QUBO Problem Modeling
+      Quantum-Inspired Routing (Q-TrafficX)
+      Combinatorial Optimization
     Full-Stack Architecture
       Next.js 15 & Reactive Frontends
-      FastAPI & Asynchronous Python Backends
-      PostgreSQL & Supabase Real-Time DBs
+      Offline-First & PWA Systems (BedCare Connect)
+      PostgreSQL & Supabase Cloud Backends
     Embedded & Edge
       ESP32 Microcontrollers & IoT
       Telemetry Automation & Cloud Relays

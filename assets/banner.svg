@@ -2,64 +2,57 @@
   <defs>
     <!-- Background Gradients -->
     <radialGradient id="cyberVignette" cx="50%" cy="50%" r="70%">
-      <stop offset="0%" stop-color="#090514" />
-      <stop offset="50%" stop-color="#040208" />
+      <stop offset="0%" stop-color="#080512" />
+      <stop offset="55%" stop-color="#030206" />
       <stop offset="100%" stop-color="#010003" />
     </radialGradient>
 
-    <radialGradient id="cyanBackdropGlow" cx="20%" cy="35%" r="45%">
-      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.18" />
-      <stop offset="60%" stop-color="#00F0FF" stop-opacity="0.03" />
-      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    <!-- Subtle Ambient Backdrop Atmosphere (Kept minimal and soft) -->
+    <radialGradient id="cyanBackdropGlow" cx="22%" cy="32%" r="40%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.08" />
+      <stop offset="70%" stop-color="#00F0FF" stop-opacity="0" />
     </radialGradient>
 
-    <radialGradient id="magentaBackdropGlow" cx="75%" cy="55%" r="50%">
-      <stop offset="0%" stop-color="#FF007A" stop-opacity="0.22" />
-      <stop offset="55%" stop-color="#FF007A" stop-opacity="0.04" />
-      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    <radialGradient id="magentaBackdropGlow" cx="78%" cy="55%" r="45%">
+      <stop offset="0%" stop-color="#FF007A" stop-opacity="0.10" />
+      <stop offset="70%" stop-color="#FF007A" stop-opacity="0" />
     </radialGradient>
 
-    <linearGradient id="cyanNeonText" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#5CE1E6" />
-      <stop offset="50%" stop-color="#00F0FF" />
-      <stop offset="100%" stop-color="#38BDF8" />
+    <!-- Professional 3D Chiseled Gradients: Top-Left Specular Light to Rich Body -->
+    <linearGradient id="cyan3DFace" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="25%" stop-color="#CEFAFE" />
+      <stop offset="65%" stop-color="#00E5FF" />
+      <stop offset="100%" stop-color="#0891B2" />
     </linearGradient>
 
-    <linearGradient id="pinkNeonText" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FF2A85" />
-      <stop offset="50%" stop-color="#FF007A" />
-      <stop offset="100%" stop-color="#F43F5E" />
+    <linearGradient id="pink3DFace" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="25%" stop-color="#FFE4E6" />
+      <stop offset="65%" stop-color="#FF007A" />
+      <stop offset="100%" stop-color="#BE123C" />
     </linearGradient>
 
     <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.7" />
-      <stop offset="50%" stop-color="#6B21A8" stop-opacity="0.3" />
-      <stop offset="100%" stop-color="#FF007A" stop-opacity="0.8" />
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#6B21A8" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#FF007A" stop-opacity="0.6" />
     </linearGradient>
 
-    <!-- High-Impact Neon Glow Filters -->
-    <filter id="cyanGlow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="8" result="blur1" />
-      <feGaussianBlur stdDeviation="18" result="blur2" />
-      <feMerge>
-        <feMergeNode in="blur2" />
-        <feMergeNode in="blur1" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
+    <!-- Standard Professional 3D Directional Drop-Shadow (One-Sided Light) -->
+    <filter id="cyan3D" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="3" dy="4" stdDeviation="2.5" flood-color="#00E5FF" flood-opacity="0.38" />
+      <feDropShadow dx="6" dy="8" stdDeviation="6" flood-color="#000000" flood-opacity="0.85" />
     </filter>
 
-    <filter id="pinkGlow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="8" result="blur1" />
-      <feGaussianBlur stdDeviation="20" result="blur2" />
-      <feMerge>
-        <feMergeNode in="blur2" />
-        <feMergeNode in="blur1" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
+    <filter id="pink3D" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="3" dy="4" stdDeviation="2.5" flood-color="#FF007A" flood-opacity="0.38" />
+      <feDropShadow dx="6" dy="8" stdDeviation="6" flood-color="#000000" flood-opacity="0.85" />
     </filter>
 
-    <filter id="intenseLight" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="4" result="blur" />
+    <!-- Subtle Accent Filters for Small Graphical Nodes -->
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
         <feMergeNode in="SourceGraphic" />
@@ -68,7 +61,7 @@
 
     <!-- Perspective Grid Pattern -->
     <pattern id="dotGrid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1" fill="#4B5563" fill-opacity="0.3" />
+      <circle cx="2" cy="2" r="1" fill="#334155" fill-opacity="0.25" />
     </pattern>
   </defs>
 
@@ -76,45 +69,43 @@
   <rect width="1200" height="460" rx="20" fill="url(#cyberVignette)" />
   <rect width="1200" height="460" rx="20" fill="url(#dotGrid)" />
 
-  <!-- Ambient Dual-Tone Volumetric Atmosphere -->
+  <!-- Soft Ambient Volumetric Lighting -->
   <rect width="1200" height="460" rx="20" fill="url(#cyanBackdropGlow)" />
   <rect width="1200" height="460" rx="20" fill="url(#magentaBackdropGlow)" />
 
-  <!-- Outer Neon Trim -->
-  <rect x="2" y="2" width="1196" height="456" rx="19" fill="none" stroke="url(#borderGrad)" stroke-width="1.6" />
+  <!-- Outer Precision Neon Trim -->
+  <rect x="2" y="2" width="1196" height="456" rx="19" fill="none" stroke="url(#borderGrad)" stroke-width="1.4" />
 
   <!-- ================= RIGHT SIDE: QUANTUM & AI VISUALIZATION ================= -->
   <g transform="translate(860, 230)">
-    <!-- Ambient Energy Core -->
-    <circle cx="0" cy="0" r="160" fill="#FF007A" fill-opacity="0.05" filter="url(#pinkGlow)" />
-    <circle cx="-30" cy="-20" r="110" fill="#00F0FF" fill-opacity="0.06" filter="url(#cyanGlow)" />
+    <!-- Ambient Core Accent -->
+    <circle cx="0" cy="0" r="140" fill="#FF007A" fill-opacity="0.04" />
+    <circle cx="-30" cy="-20" r="100" fill="#00F0FF" fill-opacity="0.04" />
 
     <!-- Quantum Bloch Sphere Orbitals -->
-    <!-- Outer Sphere Ring -->
     <circle cx="0" cy="0" r="140" fill="none" stroke="#FF007A" stroke-opacity="0.25" stroke-dasharray="6,4" stroke-width="1.2" />
     
-    <!-- Inclined Quantum Rings -->
-    <ellipse cx="0" cy="0" rx="140" ry="46" fill="none" stroke="#00F0FF" stroke-width="1.8" filter="url(#cyanGlow)" transform="rotate(-25)" opacity="0.85" />
-    <ellipse cx="0" cy="0" rx="140" ry="46" fill="none" stroke="#FF007A" stroke-width="1.8" filter="url(#pinkGlow)" transform="rotate(35)" opacity="0.85" />
-    <ellipse cx="0" cy="0" rx="140" ry="65" fill="none" stroke="#A855F7" stroke-width="1.2" stroke-opacity="0.6" stroke-dasharray="4,6" transform="rotate(85)" />
+    <!-- Precision Inclined Quantum Rings -->
+    <ellipse cx="0" cy="0" rx="140" ry="46" fill="none" stroke="#00F0FF" stroke-width="1.6" filter="url(#softGlow)" transform="rotate(-25)" opacity="0.85" />
+    <ellipse cx="0" cy="0" rx="140" ry="46" fill="none" stroke="#FF007A" stroke-width="1.6" filter="url(#softGlow)" transform="rotate(35)" opacity="0.85" />
+    <ellipse cx="0" cy="0" rx="140" ry="65" fill="none" stroke="#A855F7" stroke-width="1.2" stroke-opacity="0.5" stroke-dasharray="4,6" transform="rotate(85)" />
 
     <!-- Quantum Axis & Dirac Coordinate Poles -->
-    <line x1="0" y1="-155" x2="0" y2="155" stroke="#E2E8F0" stroke-opacity="0.3" stroke-width="1.2" stroke-dasharray="3,3" />
-    <line x1="-155" y1="0" x2="155" y2="0" stroke="#E2E8F0" stroke-opacity="0.3" stroke-width="1.2" stroke-dasharray="3,3" />
+    <line x1="0" y1="-155" x2="0" y2="155" stroke="#E2E8F0" stroke-opacity="0.25" stroke-width="1.2" stroke-dasharray="3,3" />
+    <line x1="-155" y1="0" x2="155" y2="0" stroke="#E2E8F0" stroke-opacity="0.25" stroke-width="1.2" stroke-dasharray="3,3" />
 
     <!-- Poles: |0⟩ and |1⟩ -->
-    <text x="0" y="-165" text-anchor="middle" font-family="'Courier New', monospace" font-size="14" font-weight="bold" fill="#00F0FF" filter="url(#intenseLight)">|0⟩</text>
-    <text x="0" y="180" text-anchor="middle" font-family="'Courier New', monospace" font-size="14" font-weight="bold" fill="#FF007A" filter="url(#intenseLight)">|1⟩</text>
+    <text x="0" y="-165" text-anchor="middle" font-family="'Courier New', monospace" font-size="14" font-weight="bold" fill="#00F0FF">|0⟩</text>
+    <text x="0" y="180" text-anchor="middle" font-family="'Courier New', monospace" font-size="14" font-weight="bold" fill="#FF007A">|1⟩</text>
 
     <!-- Superposition State Vector |ψ⟩ -->
-    <line x1="0" y1="0" x2="82" y2="-90" stroke="#00F0FF" stroke-width="2.6" filter="url(#cyanGlow)" />
-    <polygon points="82,-90 73,-81 85,-79" fill="#00F0FF" filter="url(#intenseLight)" />
-    <circle cx="82" cy="-90" r="5" fill="#FFFFFF" filter="url(#intenseLight)" />
-    <text x="96" y="-96" font-family="'Courier New', monospace" font-size="17" font-weight="bold" fill="#FFFFFF" filter="url(#intenseLight)">|ψ⟩</text>
+    <line x1="0" y1="0" x2="82" y2="-90" stroke="#00F0FF" stroke-width="2.4" filter="url(#softGlow)" />
+    <polygon points="82,-90 73,-81 85,-79" fill="#00F0FF" />
+    <circle cx="82" cy="-90" r="4.5" fill="#FFFFFF" />
+    <text x="96" y="-96" font-family="'Courier New', monospace" font-size="17" font-weight="bold" fill="#FFFFFF">|ψ⟩</text>
 
     <!-- AI / Neural Network Synaptic Mesh Overlay -->
-    <!-- Synaptic Connection Lines -->
-    <g stroke-width="1.2" opacity="0.7">
+    <g stroke-width="1.2" opacity="0.65">
       <line x1="-110" y1="-50" x2="-50" y2="-100" stroke="#00F0FF" stroke-opacity="0.6" />
       <line x1="-50" y1="-100" x2="40" y2="-80" stroke="#00F0FF" stroke-opacity="0.8" />
       <line x1="-110" y1="-50" x2="-40" y2="20" stroke="#FF007A" stroke-opacity="0.5" />
@@ -127,13 +118,13 @@
     </g>
 
     <!-- Neural Synapse Nodes -->
-    <circle cx="-110" cy="-50" r="4.5" fill="#00F0FF" filter="url(#intenseLight)" />
-    <circle cx="-50" cy="-100" r="5.5" fill="#FFFFFF" stroke="#00F0FF" stroke-width="2" filter="url(#intenseLight)" />
+    <circle cx="-110" cy="-50" r="4.5" fill="#00F0FF" />
+    <circle cx="-50" cy="-100" r="5" fill="#FFFFFF" stroke="#00F0FF" stroke-width="2" />
     <circle cx="40" cy="-80" r="4.5" fill="#00F0FF" />
-    <circle cx="-40" cy="20" r="6" fill="#FF007A" filter="url(#intenseLight)" />
+    <circle cx="-40" cy="20" r="5.5" fill="#FF007A" />
     <circle cx="30" cy="-30" r="4" fill="#C084FC" />
-    <circle cx="50" cy="50" r="6" fill="#FFFFFF" stroke="#FF007A" stroke-width="2" filter="url(#intenseLight)" />
-    <circle cx="110" cy="30" r="4.5" fill="#00F0FF" filter="url(#intenseLight)" />
+    <circle cx="50" cy="50" r="5.5" fill="#FFFFFF" stroke="#FF007A" stroke-width="2" />
+    <circle cx="110" cy="30" r="4.5" fill="#00F0FF" />
     <circle cx="100" cy="-60" r="5" fill="#FF007A" />
     <circle cx="-80" cy="90" r="4" fill="#00F0FF" />
     <circle cx="-20" cy="100" r="4.5" fill="#FF007A" />
@@ -146,15 +137,15 @@
       
       <!-- H Gate (Hadamard in Cyan) -->
       <g transform="translate(45, -12)">
-        <rect width="24" height="24" rx="4" fill="#040208" stroke="#00F0FF" stroke-width="1.5" filter="url(#cyanGlow)" />
+        <rect width="24" height="24" rx="4" fill="#040208" stroke="#00F0FF" stroke-width="1.5" />
         <text x="12" y="17" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" font-weight="900" fill="#00F0FF">H</text>
       </g>
 
       <!-- CNOT Control and Target in Pink -->
       <g transform="translate(130, 0)">
-        <circle cx="0" cy="0" r="4.5" fill="#FF007A" filter="url(#intenseLight)" />
+        <circle cx="0" cy="0" r="4" fill="#FF007A" />
         <line x1="0" y1="0" x2="0" y2="28" stroke="#FF007A" stroke-width="2" />
-        <circle cx="0" cy="28" r="9" fill="#040208" stroke="#FF007A" stroke-width="1.8" filter="url(#pinkGlow)" />
+        <circle cx="0" cy="28" r="9" fill="#040208" stroke="#FF007A" stroke-width="1.6" />
         <line x1="-6" y1="28" x2="6" y2="28" stroke="#FF007A" stroke-width="1.5" />
         <line x1="0" y1="22" x2="0" y2="34" stroke="#FF007A" stroke-width="1.5" />
       </g>
@@ -167,44 +158,60 @@
     </g>
 
     <!-- Mathematical Quantum Dirac Equations Floating -->
-    <text x="-160" y="-120" font-family="'Courier New', monospace" font-size="12" font-weight="bold" fill="#00F0FF" fill-opacity="0.5">|ψ⟩ = α|0⟩ + β|1⟩</text>
-    <text x="-15" y="-125" font-family="'Courier New', monospace" font-size="11" font-weight="bold" fill="#FF007A" fill-opacity="0.45">|α|² + |β|² = 1</text>
-    <text x="50" y="115" font-family="'Courier New', monospace" font-size="11" font-weight="bold" fill="#00F0FF" fill-opacity="0.4">U = e^{-iHt/ℏ}</text>
+    <text x="-160" y="-120" font-family="'Courier New', monospace" font-size="12" font-weight="bold" fill="#00F0FF" fill-opacity="0.6">|ψ⟩ = α|0⟩ + β|1⟩</text>
+    <text x="-15" y="-125" font-family="'Courier New', monospace" font-size="11" font-weight="bold" fill="#FF007A" fill-opacity="0.55">|α|² + |β|² = 1</text>
+    <text x="50" y="115" font-family="'Courier New', monospace" font-size="11" font-weight="bold" fill="#00F0FF" fill-opacity="0.5">U = e^{-iHt/ℏ}</text>
   </g>
 
-  <!-- ================= LEFT SIDE: BOLD TWO-TIER TYPOGRAPHY ================= -->
+  <!-- ================= LEFT SIDE: BOLD TWO-TIER 3D CHISELED TYPOGRAPHY ================= -->
   <g transform="translate(75, 80)">
 
     <!-- Top Futuristic Kicker -->
     <g transform="translate(2, 0)">
-      <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Montserrat', sans-serif" font-size="13" font-weight="800" fill="#38BDF8" letter-spacing="4">
+      <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Montserrat', sans-serif" font-size="12.5" font-weight="800" fill="#38BDF8" letter-spacing="4">
         A R C H I T E C T I N G   T O M O R R O W
       </text>
-      <line x1="0" y1="12" x2="160" y2="12" stroke="#00F0FF" stroke-width="1.5" filter="url(#cyanGlow)" />
+      <line x1="0" y1="12" x2="160" y2="12" stroke="#00F0FF" stroke-width="1.5" stroke-opacity="0.8" />
     </g>
 
-    <!-- TIER 1: "KRISHNA" in Electric Neon Cyan -->
-    <text x="0" y="110" font-family="'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="94" font-weight="900" fill="url(#cyanNeonText)" letter-spacing="4" filter="url(#cyanGlow)">
+    <!-- TIER 1: "KRISHNA" with Crisp Single-Side 3D Lighting & High Contrast -->
+    <!-- Layer 1: Directional Depth Extrusion (Bottom-Right) -->
+    <text x="3.5" y="113.5" font-family="'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="94" font-weight="900" fill="#042F38" letter-spacing="4">
+      KRISHNA
+    </text>
+    <text x="2" y="112" font-family="'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="94" font-weight="900" fill="#083344" letter-spacing="4">
+      KRISHNA
+    </text>
+    <!-- Layer 2: Razor-Sharp Chiseled Front Face with Directional One-Sided Highlight -->
+    <text x="0" y="110" font-family="'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="94" font-weight="900" fill="url(#cyan3DFace)" letter-spacing="4" filter="url(#cyan3D)">
       KRISHNA
     </text>
 
-    <!-- TIER 2: "PRIYA" Down to that in Vibrant Hot Pink/Magenta -->
-    <text x="0" y="205" font-family="'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="94" font-weight="900" fill="url(#pinkNeonText)" letter-spacing="4" filter="url(#pinkGlow)">
+    <!-- TIER 2: "PRIYA" with Crisp Single-Side 3D Lighting & High Contrast -->
+    <!-- Layer 1: Directional Depth Extrusion (Bottom-Right) -->
+    <text x="3.5" y="208.5" font-family="'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="94" font-weight="900" fill="#3B0716" letter-spacing="4">
+      PRIYA
+    </text>
+    <text x="2" y="207" font-family="'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="94" font-weight="900" fill="#4C0519" letter-spacing="4">
+      PRIYA
+    </text>
+    <!-- Layer 2: Razor-Sharp Chiseled Front Face with Directional One-Sided Highlight -->
+    <text x="0" y="205" font-family="'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="94" font-weight="900" fill="url(#pink3DFace)" letter-spacing="4" filter="url(#pink3D)">
       PRIYA
     </text>
 
-    <!-- Subtitle / Tagline matching the aesthetic -->
+    <!-- Subtitle / Tagline -->
     <g transform="translate(2, 240)">
       <text font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14.5" font-weight="800" fill="#94A3B8" letter-spacing="2.5">
-        WHERE <tspan fill="#00F0FF" filter="url(#intenseLight)">INTELLIGENCE</tspan> MEETS <tspan fill="#FF007A" filter="url(#intenseLight)">QUANTUM</tspan>
+        WHERE <tspan fill="#00E5FF">INTELLIGENCE</tspan> MEETS <tspan fill="#FF007A">QUANTUM</tspan>
       </text>
     </g>
 
-    <!-- Interactive Neon Tech Badges -->
+    <!-- Standard Precision Tech Badges (Crisp and clean) -->
     <g transform="translate(0, 275)">
       <!-- AI / Deep Learning Badge -->
       <g transform="translate(0, 0)">
-        <rect width="180" height="36" rx="6" fill="#0A0614" stroke="#00F0FF" stroke-opacity="0.7" stroke-width="1.2" filter="url(#cyanGlow)" />
+        <rect width="180" height="36" rx="6" fill="#0A0614" stroke="#00E5FF" stroke-opacity="0.8" stroke-width="1.2" />
         <text x="90" y="23" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#E0F2FE" letter-spacing="1">
           🧠 AI &amp; DEEP LEARNING
         </text>
@@ -212,7 +219,7 @@
 
       <!-- Quantum Tech Badge -->
       <g transform="translate(195, 0)">
-        <rect width="200" height="36" rx="6" fill="#0A0614" stroke="#FF007A" stroke-opacity="0.7" stroke-width="1.2" filter="url(#pinkGlow)" />
+        <rect width="200" height="36" rx="6" fill="#0A0614" stroke="#FF007A" stroke-opacity="0.8" stroke-width="1.2" />
         <text x="100" y="23" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#FFE4E6" letter-spacing="1">
           ⚛️ QUANTUM COMPUTING
         </text>
@@ -220,7 +227,7 @@
 
       <!-- Full-Stack Engineering Badge -->
       <g transform="translate(410, 0)">
-        <rect width="175" height="36" rx="6" fill="#0A0614" stroke="#C084FC" stroke-opacity="0.7" stroke-width="1.2" />
+        <rect width="175" height="36" rx="6" fill="#0A0614" stroke="#C084FC" stroke-opacity="0.8" stroke-width="1.2" />
         <text x="87" y="23" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#F3E8FF" letter-spacing="1">
           ⚡ FULL-STACK ARCH
         </text>
@@ -236,12 +243,12 @@
 
   </g>
 
-  <!-- Cyber Grid Corner Accents -->
-  <g stroke="#00F0FF" stroke-width="1.5" opacity="0.6">
+  <!-- Precision Corner Accents -->
+  <g stroke="#00F0FF" stroke-width="1.4" opacity="0.5">
     <line x1="20" y1="20" x2="45" y2="20" />
     <line x1="20" y1="20" x2="20" y2="45" />
   </g>
-  <g stroke="#FF007A" stroke-width="1.5" opacity="0.6">
+  <g stroke="#FF007A" stroke-width="1.4" opacity="0.5">
     <line x1="1180" y1="440" x2="1155" y2="440" />
     <line x1="1180" y1="440" x2="1180" y2="415" />
   </g>
