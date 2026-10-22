@@ -1,0 +1,349 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="100%" height="100%">
+  <defs>
+    <!-- Background Canvas Gradients -->
+    <radialGradient id="techVignette" cx="50%" cy="45%" r="75%">
+      <stop offset="0%" stop-color="#0B061A" />
+      <stop offset="45%" stop-color="#06020D" />
+      <stop offset="100%" stop-color="#020005" />
+    </radialGradient>
+
+    <!-- Ambient Glow Pods -->
+    <radialGradient id="centerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="cyanAmbient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="pinkAmbient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF007A" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="purpleAmbient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.14" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Subtle HUD Grid Pattern -->
+    <pattern id="hudGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E1633" stroke-width="0.75" stroke-opacity="0.4" />
+      <circle cx="40" cy="40" r="0.8" fill="#4B5563" fill-opacity="0.3" />
+    </pattern>
+
+    <!-- Precision Neon Glow Filters -->
+    <filter id="glowCyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="glowPink" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="glowPurple" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Split Neon Gradients -->
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5CE1E6" />
+      <stop offset="100%" stop-color="#00C4D6" />
+    </linearGradient>
+
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF2A85" />
+      <stop offset="100%" stop-color="#D9005E" />
+    </linearGradient>
+
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C084FC" />
+      <stop offset="100%" stop-color="#7C3AED" />
+    </linearGradient>
+
+    <!-- Center Ring Split Gradient -->
+    <linearGradient id="ringSplit" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF" />
+      <stop offset="50%" stop-color="#C084FC" />
+      <stop offset="100%" stop-color="#FF007A" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="700" rx="16" fill="url(#techVignette)" />
+  <rect width="1200" height="700" rx="16" fill="url(#hudGrid)" />
+
+  <!-- Ambient Light Halos -->
+  <circle cx="600" cy="240" r="160" fill="url(#centerGlow)" />
+  <circle cx="270" cy="220" r="180" fill="url(#cyanAmbient)" />
+  <circle cx="930" cy="220" r="180" fill="url(#pinkAmbient)" />
+  <circle cx="600" cy="530" r="220" fill="url(#purpleAmbient)" />
+
+  <!-- Outer Frame Corner Accents -->
+  <g stroke="#00F0FF" stroke-width="1.2" opacity="0.6">
+    <path d="M 20 40 L 20 20 L 40 20" fill="none" />
+    <circle cx="20" cy="20" r="2" fill="#00F0FF" />
+  </g>
+  <g stroke="#FF007A" stroke-width="1.2" opacity="0.6">
+    <path d="M 1180 40 L 1180 20 L 1160 20" fill="none" />
+    <circle cx="1180" cy="20" r="2" fill="#FF007A" />
+  </g>
+  <g stroke="#8B5CF6" stroke-width="1.2" opacity="0.6">
+    <path d="M 20 660 L 20 680 L 40 680" fill="none" />
+    <circle cx="20" cy="680" r="2" fill="#8B5CF6" />
+  </g>
+  <g stroke="#8B5CF6" stroke-width="1.2" opacity="0.6">
+    <path d="M 1180 660 L 1180 680 L 1160 680" fill="none" />
+    <circle cx="1180" cy="680" r="2" fill="#8B5CF6" />
+  </g>
+
+  <!-- ================= CIRCUIT ENERGY TRACES ================= -->
+  <!-- Left Trace (To AI Module) -->
+  <path d="M 520 240 C 470 240, 470 190, 470 190" fill="none" stroke="#00F0FF" stroke-width="2.2" filter="url(#glowCyan)" />
+  <circle cx="470" cy="190" r="3.5" fill="#FFFFFF" stroke="#00F0FF" stroke-width="2" />
+
+  <!-- Right Trace (To Quantum Module) -->
+  <path d="M 680 240 C 730 240, 730 190, 730 190" fill="none" stroke="#FF007A" stroke-width="2.2" filter="url(#glowPink)" />
+  <circle cx="730" cy="190" r="3.5" fill="#FFFFFF" stroke="#FF007A" stroke-width="2" />
+
+  <!-- Bottom Trace (To Full-Stack Architecture Module) -->
+  <path d="M 600 320 L 600 415" fill="none" stroke="#A855F7" stroke-width="2.2" filter="url(#glowPurple)" />
+  <circle cx="600" cy="415" r="3.5" fill="#FFFFFF" stroke="#A855F7" stroke-width="2" />
+
+  <!-- ================= 01: ARTIFICIAL INTELLIGENCE (CYAN MODULE) ================= -->
+  <g transform="translate(60, 50)">
+    <!-- HUD Outer Beveled Box -->
+    <path d="M 20 0 L 390 0 A 20 20 0 0 1 410 20 L 410 330 A 20 20 0 0 1 390 350 L 20 350 A 20 20 0 0 1 0 330 L 0 20 A 20 20 0 0 1 20 0 Z" 
+          fill="#06030F" fill-opacity="0.9" stroke="#00F0FF" stroke-width="1.8" filter="url(#glowCyan)" />
+    
+    <!-- Top-Left Cut Accent -->
+    <path d="M 0 35 L 35 0" stroke="#00F0FF" stroke-width="2" />
+    <circle cx="28" cy="8" r="1.5" fill="#00F0FF" />
+
+    <!-- Header Section -->
+    <g transform="translate(24, 24)">
+      <!-- AI Brain Icon Container -->
+      <rect x="0" y="0" width="46" height="46" rx="10" fill="#0A0618" stroke="#00F0FF" stroke-width="1.4" />
+      <!-- Brain Icon Path -->
+      <path d="M 16 23 C 14 20, 15 16, 19 16 C 21 13, 25 14, 27 16 C 30 14, 33 16, 33 20 C 35 22, 34 26, 32 28 C 33 31, 30 33, 27 32 C 25 34, 21 34, 19 32 C 15 32, 14 28, 16 23 Z" 
+            fill="none" stroke="#00F0FF" stroke-width="1.8" />
+      <line x1="24" y1="16" x2="24" y2="33" stroke="#00F0FF" stroke-width="1.4" stroke-dasharray="2,2" />
+
+      <!-- Module Index & Titles -->
+      <text x="58" y="14" font-family="'Courier New', monospace" font-size="12" font-weight="bold" fill="#00F0FF" letter-spacing="1">01</text>
+      <text x="58" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Montserrat', sans-serif" font-size="15.5" font-weight="900" fill="#FFFFFF" letter-spacing="1">ARTIFICIAL INTELLIGENCE</text>
+      <text x="58" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="700" fill="#64748B" letter-spacing="1.2">BUILDING INTELLIGENT SYSTEMS FOR REAL-WORLD IMPACT</text>
+    </g>
+
+    <!-- Sub-Cards Container -->
+    <g transform="translate(18, 92)">
+      <!-- Sub-Card 1: Computer Vision & Medical Imaging -->
+      <g transform="translate(0, 0)">
+        <rect width="374" height="68" rx="8" fill="#0A0618" stroke="#00F0FF" stroke-opacity="0.4" stroke-width="1" />
+        <circle cx="28" cy="34" r="16" fill="#050C1A" stroke="#00F0FF" stroke-width="1.2" />
+        <!-- Eye Icon -->
+        <path d="M 21 34 C 24 29, 32 29, 35 34 C 32 39, 24 39, 21 34 Z" fill="none" stroke="#00F0FF" stroke-width="1.6" />
+        <circle cx="28" cy="34" r="2.5" fill="#00F0FF" />
+        <text x="54" y="29" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#FFFFFF">Deep Learning &amp; Computer Vision</text>
+        <text x="54" y="47" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" fill="#67E8F9">Medical Imaging &#8226; Feature Extraction &#8226; Explainable AI</text>
+      </g>
+
+      <!-- Sub-Card 2: NLP & Generative AI Agents -->
+      <g transform="translate(0, 78)">
+        <rect width="374" height="68" rx="8" fill="#0A0618" stroke="#00F0FF" stroke-opacity="0.4" stroke-width="1" />
+        <circle cx="28" cy="34" r="16" fill="#050C1A" stroke="#00F0FF" stroke-width="1.2" />
+        <!-- Message / Agent Icon -->
+        <path d="M 22 28 L 34 28 C 36 28, 36 36, 32 36 L 28 36 L 24 40 L 24 36 L 22 36 C 20 36, 20 28, 22 28 Z" fill="none" stroke="#00F0FF" stroke-width="1.6" />
+        <text x="54" y="29" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#FFFFFF">NLP &amp; Generative AI Agents</text>
+        <text x="54" y="47" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" fill="#67E8F9">LLMs &#8226; Knowledge Graphs &#8226; Adaptive Learning</text>
+      </g>
+
+      <!-- Sub-Card 3: Real-Time Anomaly & Diagnostic Systems -->
+      <g transform="translate(0, 156)">
+        <rect width="374" height="68" rx="8" fill="#0A0618" stroke="#00F0FF" stroke-opacity="0.4" stroke-width="1" />
+        <circle cx="28" cy="34" r="16" fill="#050C1A" stroke="#00F0FF" stroke-width="1.2" />
+        <!-- Shield Icon -->
+        <path d="M 28 25 L 34 28 L 34 34 C 34 38, 28 42, 28 42 C 28 42, 22 38, 22 34 L 22 28 Z" fill="none" stroke="#00F0FF" stroke-width="1.6" />
+        <text x="54" y="29" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#FFFFFF">Real-Time Anomaly &amp; Pattern Analysis</text>
+        <text x="54" y="47" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" fill="#67E8F9">Risk Classification &#8226; Anomaly Detection &#8226; Decision Trees</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ================= 02: QUANTUM COMPUTING (PINK MODULE) ================= -->
+  <g transform="translate(730, 50)">
+    <!-- HUD Outer Beveled Box -->
+    <path d="M 20 0 L 390 0 A 20 20 0 0 1 410 20 L 410 330 A 20 20 0 0 1 390 350 L 20 350 A 20 20 0 0 1 0 330 L 0 20 A 20 20 0 0 1 20 0 Z" 
+          fill="#06030F" fill-opacity="0.9" stroke="#FF007A" stroke-width="1.8" filter="url(#glowPink)" />
+    
+    <!-- Top-Right Cut Accent -->
+    <path d="M 410 35 L 375 0" stroke="#FF007A" stroke-width="2" />
+    <circle cx="382" cy="8" r="1.5" fill="#FF007A" />
+
+    <!-- Header Section -->
+    <g transform="translate(24, 24)">
+      <!-- Quantum Atom Icon Container -->
+      <rect x="0" y="0" width="46" height="46" rx="10" fill="#14040D" stroke="#FF007A" stroke-width="1.4" />
+      <!-- Quantum Atom Icon Path -->
+      <circle cx="23" cy="23" r="3" fill="#FF007A" />
+      <ellipse cx="23" cy="23" rx="13" ry="5" fill="none" stroke="#FF007A" stroke-width="1.4" transform="rotate(30, 23, 23)" />
+      <ellipse cx="23" cy="23" rx="13" ry="5" fill="none" stroke="#FF007A" stroke-width="1.4" transform="rotate(-30, 23, 23)" />
+
+      <!-- Module Index & Titles -->
+      <text x="58" y="14" font-family="'Courier New', monospace" font-size="12" font-weight="bold" fill="#FF007A" letter-spacing="1">02</text>
+      <text x="58" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Montserrat', sans-serif" font-size="15.5" font-weight="900" fill="#FFFFFF" letter-spacing="1">QUANTUM COMPUTING</text>
+      <text x="58" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="700" fill="#64748B" letter-spacing="1.2">EXPLORING NEXT-GEN COMPUTING PARADIGMS</text>
+    </g>
+
+    <!-- Sub-Cards Container -->
+    <g transform="translate(18, 92)">
+      <!-- Sub-Card 1: QUBO Problem Formulation -->
+      <g transform="translate(0, 0)">
+        <rect width="374" height="68" rx="8" fill="#14040D" stroke="#FF007A" stroke-opacity="0.4" stroke-width="1" />
+        <circle cx="28" cy="34" r="16" fill="#1C0512" stroke="#FF007A" stroke-width="1.2" />
+        <!-- Target / Grid Icon -->
+        <circle cx="28" cy="34" r="7" fill="none" stroke="#FF007A" stroke-width="1.5" />
+        <circle cx="28" cy="34" r="2.5" fill="#FF007A" />
+        <text x="54" y="29" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#FFFFFF">QUBO Problem Formulation</text>
+        <text x="54" y="47" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" fill="#FDA4AF">Optimization &#8226; Combinatorial Modeling &#8226; Graph Mapping</text>
+      </g>
+
+      <!-- Sub-Card 2: Quantum-Inspired Priority Routing -->
+      <g transform="translate(0, 78)">
+        <rect width="374" height="68" rx="8" fill="#14040D" stroke="#FF007A" stroke-opacity="0.4" stroke-width="1" />
+        <circle cx="28" cy="34" r="16" fill="#1C0512" stroke="#FF007A" stroke-width="1.2" />
+        <!-- Pulse / Simulation Wave -->
+        <path d="M 19 34 L 23 34 L 26 27 L 29 40 L 32 32 L 34 34 L 37 34" fill="none" stroke="#FF007A" stroke-width="1.6" />
+        <text x="54" y="29" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#FFFFFF">Quantum-Inspired Simulated Annealing</text>
+        <text x="54" y="47" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" fill="#FDA4AF">Priority Routing &#8226; Traffic Flow &#8226; Heuristic Optimization</text>
+      </g>
+
+      <!-- Sub-Card 3: Qiskit Circuit Simulation & QAOA -->
+      <g transform="translate(0, 156)">
+        <rect width="374" height="68" rx="8" fill="#14040D" stroke="#FF007A" stroke-opacity="0.4" stroke-width="1" />
+        <circle cx="28" cy="34" r="16" fill="#1C0512" stroke="#FF007A" stroke-width="1.2" />
+        <!-- Chip / Processor Icon -->
+        <rect x="23" y="29" width="10" height="10" fill="none" stroke="#FF007A" stroke-width="1.5" />
+        <line x1="20" y1="32" x2="23" y2="32" stroke="#FF007A" stroke-width="1.2" />
+        <line x1="20" y1="36" x2="23" y2="36" stroke="#FF007A" stroke-width="1.2" />
+        <line x1="33" y1="32" x2="36" y2="32" stroke="#FF007A" stroke-width="1.2" />
+        <line x1="33" y1="36" x2="36" y2="36" stroke="#FF007A" stroke-width="1.2" />
+        <text x="54" y="29" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#FFFFFF">Qiskit Circuit Simulation &amp; QAOA</text>
+        <text x="54" y="47" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" fill="#FDA4AF">Quantum Algorithms &#8226; Gate Synthesis &#8226; VQE Explorations</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ================= 03: FULL-STACK ARCHITECTURE (PURPLE MODULE) ================= -->
+  <g transform="translate(190, 420)">
+    <!-- HUD Outer Beveled Box -->
+    <path d="M 20 0 L 800 0 A 20 20 0 0 1 820 20 L 820 185 A 20 20 0 0 1 800 205 L 20 205 A 20 20 0 0 1 0 185 L 0 20 A 20 20 0 0 1 20 0 Z" 
+          fill="#080314" fill-opacity="0.92" stroke="#8B5CF6" stroke-width="1.8" filter="url(#glowPurple)" />
+    
+    <!-- Top-Left & Top-Right Notches -->
+    <path d="M 0 25 L 25 0" stroke="#8B5CF6" stroke-width="2" />
+    <path d="M 820 25 L 795 0" stroke="#8B5CF6" stroke-width="2" />
+
+    <!-- Header Section -->
+    <g transform="translate(26, 20)">
+      <!-- Stack Layers Icon -->
+      <rect x="0" y="0" width="42" height="42" rx="10" fill="#140624" stroke="#8B5CF6" stroke-width="1.4" />
+      <path d="M 21 16 L 31 21 L 21 26 L 11 21 Z" fill="none" stroke="#A855F7" stroke-width="1.5" />
+      <path d="M 11 25 L 21 30 L 31 25" fill="none" stroke="#A855F7" stroke-width="1.5" />
+      <path d="M 11 29 L 21 34 L 31 29" fill="none" stroke="#A855F7" stroke-width="1.5" />
+
+      <!-- Module Index & Titles -->
+      <text x="56" y="14" font-family="'Courier New', monospace" font-size="12" font-weight="bold" fill="#A855F7" letter-spacing="1">03</text>
+      <text x="56" y="28" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Montserrat', sans-serif" font-size="15.5" font-weight="900" fill="#FFFFFF" letter-spacing="1">FULL-STACK ARCHITECTURE</text>
+      <text x="56" y="42" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="700" fill="#64748B" letter-spacing="1.2">SCALABLE, MODERN &amp; USER-FOCUSED APPLICATIONS</text>
+    </g>
+
+    <!-- 3 Horizontal Sub-Cards -->
+    <g transform="translate(22, 78)">
+      <!-- Sub-Card 1: Frontend & PWA -->
+      <g transform="translate(0, 0)">
+        <rect width="246" height="106" rx="8" fill="#11051F" stroke="#8B5CF6" stroke-opacity="0.45" stroke-width="1" />
+        <circle cx="28" cy="32" r="14" fill="#090214" stroke="#8B5CF6" stroke-width="1.2" />
+        <!-- Code Tag Icon -->
+        <text x="28" y="37" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" font-weight="900" fill="#A855F7">&lt;/&gt;</text>
+        <text x="52" y="30" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="800" fill="#FFFFFF">Next.js &amp; Reactive UI</text>
+        <text x="52" y="46" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#C084FC">Modern UI &#8226; PWA &#8226; Mobile</text>
+        <line x1="20" y1="64" x2="226" y2="64" stroke="#2D154B" stroke-width="1" />
+        <text x="20" y="84" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="500" fill="#94A3B8">Tailwind CSS, Framer Motion, Offline-First</text>
+      </g>
+
+      <!-- Sub-Card 2: Backend & Python APIs -->
+      <g transform="translate(264, 0)">
+        <rect width="246" height="106" rx="8" fill="#11051F" stroke="#8B5CF6" stroke-opacity="0.45" stroke-width="1" />
+        <circle cx="28" cy="32" r="14" fill="#090214" stroke="#8B5CF6" stroke-width="1.2" />
+        <!-- Server Icon -->
+        <rect x="21" y="24" width="14" height="6" rx="1" fill="none" stroke="#A855F7" stroke-width="1.4" />
+        <rect x="21" y="34" width="14" height="6" rx="1" fill="none" stroke="#A855F7" stroke-width="1.4" />
+        <circle cx="24" cy="27" r="1" fill="#A855F7" />
+        <circle cx="24" cy="37" r="1" fill="#A855F7" />
+        <text x="52" y="30" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="800" fill="#FFFFFF">FastAPI &amp; Async Backend</text>
+        <text x="52" y="46" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#C084FC">APIs &#8226; Performance &#8226; Scalability</text>
+        <line x1="20" y1="64" x2="226" y2="64" stroke="#2D154B" stroke-width="1" />
+        <text x="20" y="84" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="500" fill="#94A3B8">Microservices, Pydantic, Async IO</text>
+      </g>
+
+      <!-- Sub-Card 3: Database & Cloud -->
+      <g transform="translate(528, 0)">
+        <rect width="246" height="106" rx="8" fill="#11051F" stroke="#8B5CF6" stroke-opacity="0.45" stroke-width="1" />
+        <circle cx="28" cy="32" r="14" fill="#090214" stroke="#8B5CF6" stroke-width="1.2" />
+        <!-- Database Cylinder Icon -->
+        <ellipse cx="28" cy="26" rx="8" ry="3.5" fill="none" stroke="#A855F7" stroke-width="1.4" />
+        <path d="M 20 26 L 20 38 C 20 40 36 40 36 38 L 36 26" fill="none" stroke="#A855F7" stroke-width="1.4" />
+        <path d="M 20 32 C 20 34 36 34 36 32" fill="none" stroke="#A855F7" stroke-width="1.2" />
+        <text x="52" y="30" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="800" fill="#FFFFFF">PostgreSQL &amp; Supabase</text>
+        <text x="52" y="46" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#C084FC">Real-Time DBs &#8226; Data Persistence</text>
+        <line x1="20" y1="64" x2="226" y2="64" stroke="#2D154B" stroke-width="1" />
+        <text x="20" y="84" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9.5" font-weight="500" fill="#94A3B8">SQL Schema, Auth, Storage, Docker</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ================= CENTER NODE: KRISHNA'S TECHNICAL CORE ================= -->
+  <g transform="translate(600, 240)">
+    <!-- Outer Glow Wave -->
+    <circle cx="0" cy="0" r="74" fill="none" stroke="url(#ringSplit)" stroke-width="2.5" filter="url(#glowPurple)" />
+    
+    <!-- Concentric Tech Dashes -->
+    <circle cx="0" cy="0" r="82" fill="none" stroke="#4C1D95" stroke-width="1.2" stroke-dasharray="6,5" opacity="0.7" />
+
+    <!-- Center Filled Capsule -->
+    <circle cx="0" cy="0" r="68" fill="#0A0416" stroke="#1E1035" stroke-width="2" />
+
+    <!-- Code Brackets Icon in Neon Gradient -->
+    <text x="0" y="-14" text-anchor="middle" font-family="'Courier New', monospace" font-size="28" font-weight="900" fill="#00F0FF" filter="url(#glowCyan)">&lt;/&gt;</text>
+
+    <!-- Core Title -->
+    <text x="0" y="16" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Montserrat', sans-serif" font-size="15" font-weight="900" fill="#FFFFFF" letter-spacing="2">
+      KRISHNA'S
+    </text>
+    <text x="0" y="34" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="800" fill="#A855F7" letter-spacing="1.5">
+      TECHNICAL CORE
+    </text>
+  </g>
+
+  <!-- Bottom-Right Futuristic Kicker / Watermark -->
+  <g transform="translate(1010, 672)">
+    <text font-family="'Courier New', monospace" font-size="11" font-weight="bold" fill="#00F0FF" letter-spacing="2" filter="url(#glowCyan)">
+      CODE / BUILD / INNOVATE &#8594;
+    </text>
+  </g>
+</svg>

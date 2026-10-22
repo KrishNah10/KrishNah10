@@ -136,25 +136,9 @@ I am a computer science student specializing in **Artificial Intelligence & Mach
 
 ## 🔬 Research & Exploration Horizons
 
-```mermaid
-mindmap
-  root((Krishna's Technical Core))
-    Artificial Intelligence
-      Deep Learning & Computer Vision
-      Medical Imaging & Explainability (ScanoraAI)
-      Generative AI & Adaptive Learning (LearnX)
-    Quantum Technology
-      QUBO Problem Modeling
-      Quantum-Inspired Routing (Q-TrafficX)
-      Combinatorial Optimization
-    Full-Stack Architecture
-      Next.js 15 & Reactive Frontends
-      Offline-First & PWA Systems (BedCare Connect)
-      PostgreSQL & Supabase Cloud Backends
-    Embedded & Edge
-      ESP32 Microcontrollers & IoT
-      Telemetry Automation & Cloud Relays
-```
+<div align="center">
+  <img src="assets/research_horizon.svg?v=1" alt="Krishna's Research & Exploration Horizons — Technical Core Infographic" width="100%" />
+</div>
 
 <br/>
 
